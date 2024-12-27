@@ -15,7 +15,7 @@ let map = new Map();
 for (let [char, count] of map) {
   if (count === 1) {
     return char
-  } 
+  }  
  
 } 
 	return "null"
