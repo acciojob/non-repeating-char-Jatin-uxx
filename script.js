@@ -16,11 +16,9 @@ for (let [char, count] of map) {
   if (count === 1) {
     return char
   } 
-  else
-  {
-      return "null"
-  }
+ 
 } 
+	return "null"
 	
 }
 const input = prompt("Enter a string");
