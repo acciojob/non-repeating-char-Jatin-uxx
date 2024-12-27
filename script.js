@@ -14,11 +14,11 @@ let map = new Map();
 // Find and print unique characters
 for (let [char, count] of map) {
   if (count === 1) {
-    console.log(char);
+    return char
   } 
   else
   {
-      console.log("null")
+      return "null"
   }
 } 
 	
